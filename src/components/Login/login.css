@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+.Login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.info-title{
+    color: #E064CC;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+}
+.login-span{
+    color: white;
+    font-size: 30px;
+}
+.logo{
+    width: 100%;
+}
+p{
+    font-weight: 800;
+    font-size: 38px;
+    width: 80%;
+    padding: 0 0 0 10px;
+}
+.info-bottom-content{
+    font-size: 16px;
+}
+.submit{
+    width: 50%;
+    height: 50px;
+    background-color: #E064CC;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 0 0 10px;
+}
+.submit:hover{
+    transition: 0.5s;
+    background-color: #954287;
+    color: white;
+}
+
+@media screen and (min-width: 996px){
+    .Login{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .info-title{
+        font-size: 20px;
+    }
+    .info-bottom-content{
+        font-size: 14px;
+    }
+    p{
+        font-size: 30px;
+    }
+    .submit{
+        width: 70%;
+        height: 50px;
+        font-size: 20px;
+        margin: 0 0 0 10px;
+    }
+}

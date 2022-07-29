@@ -1,0 +1,25 @@
+.Money-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 10px lightgrey;
+    padding: 10px;
+}
+.saldo-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-saldo{
+    font-size: 16px;
+    font-weight: 400 !important;
+    padding: 0 !important;
+}
+.value-info{
+    font-size: 20px;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    color: #FD377E;
+}

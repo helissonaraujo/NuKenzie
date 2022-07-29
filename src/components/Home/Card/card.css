@@ -1,0 +1,35 @@
+.card{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    border-left: 5px solid lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.value-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+.card-description{
+    font-size: 1.2em;
+    color: gray;
+}
+
+.card-type{
+    font-size: 1em;
+}
+.card-value{
+    font-size: 1.2em;
+}
+.card-delete{
+    width: 20%;
+    height: 20%;
+}
